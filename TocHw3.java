@@ -12,12 +12,10 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.net.URL;
 import java.nio.charset.Charset;
-
 import org.json.JSONException;
 import org.json.JSONArray;
-
 import java.util.regex.Matcher;
-import java.util.regex.Pattern;;
+import java.util.regex.Pattern;
 
 public class TocHw3 {
     private static String readAll(Reader rd) throws IOException {
